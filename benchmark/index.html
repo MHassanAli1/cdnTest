@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+  <meta name="theme-color" content="#050506" />
+  <title>Benchmark · CDN Reel Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://vz-41999221-afc.b-cdn.net" crossorigin />
+  <link rel="preconnect" href="https://stream.mux.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body data-cdn="bunny">
+  <main class="bench">
+    <div class="brand">
+      <span class="dot"></span>
+      <span class="eyebrow">CDN&nbsp;·&nbsp;Benchmark</span>
+    </div>
+    <h1 class="title">Best&#8209;of&#8209;<em>N</em></h1>
+    <p class="subtitle">Sequential cold / warm / manifest sampling per CDN. First frame is captured the instant it paints. Reports median, range and p95.</p>
+
+    <section class="config">
+      <div class="cfg-block">
+        <label class="cfg-label">CDNs</label>
+        <div class="toggles" id="toggles"></div>
+      </div>
+      <div class="cfg-block">
+        <label class="cfg-label">Warm reps <b id="repsVal">3</b></label>
+        <input type="range" id="reps" min="0" max="8" value="3" step="1" />
+      </div>
+      <button type="button" class="runbtn" id="run">RUN</button>
+    </section>
+
+    <div class="progress-wrap">
+      <div class="pbar"><span id="pbar"></span></div>
+      <div class="pstatus" id="pstatus">Ready. Cold samples are accurate on a fresh page load.</div>
+    </div>
+
+    <div class="preview-wrap">
+      <video id="preview" class="preview"></video>
+      <span class="plabel" id="plabel">idle</span>
+    </div>
+
+    <section class="results" id="results"></section>
+    <section class="logbox"><div class="log" id="log"></div></section>
+
+    <div class="foot">
+      <span>SEQUENTIAL · NATIVE HLS</span>
+      <a href="../" style="color:var(--ink-dim)">← Lab</a>
+    </div>
+  </main>
+
+  <script type="module" src="../benchmark.js"></script>
+</body>
+</html>
