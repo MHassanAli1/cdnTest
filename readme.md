@@ -1,0 +1,1 @@
+# Basic CDN hls based video speed test tool using native html5 video for IOS only
