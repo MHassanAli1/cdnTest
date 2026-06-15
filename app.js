@@ -26,6 +26,13 @@ const CDN = {
     urls: [L.reel1_b_360, L.reel2_b_360, L.reel3_b_360, L.reel4_b_360, L.reel5_b_360],
     mp4: true, // progressive MP4 — plays natively everywhere, no HLS gate
   },
+  bunny_480: {
+    name: "Bunny MP4 480p",
+    label: "BUNNY · MP4 480p",
+    host: "b-cdn.net",
+    urls: [L.reel1_b_480, L.reel2_b_480, L.reel3_b_480, L.reel4_b_480, L.reel5_b_480],
+    mp4: true,
+  },
   mux: {
     name: "Mux",
     label: "MUX VIDEO",

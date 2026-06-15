@@ -22,6 +22,12 @@ const reel3_b_360 = "https://vz-41999221-afc.b-cdn.net/eaffe042-f0a7-4ca2-8f94-1
 const reel4_b_360 = "https://vz-41999221-afc.b-cdn.net/b20db3d4-15fb-4c8c-8a1d-126db3c2bf75/play_360p.mp4";
 const reel5_b_360 = "https://vz-41999221-afc.b-cdn.net/e713a5c2-b1d2-4b73-9110-b856f54e8c1b/play_360p.mp4";
 
+const reel1_b_480 = "https://vz-41999221-afc.b-cdn.net/cafaf091-1c98-4646-91c8-14e1b8b130bf/play_480p.mp4";
+const reel2_b_480 = "https://vz-41999221-afc.b-cdn.net/b1c307c2-c7df-4dbf-a253-0428db177154/play_480p.mp4";
+const reel3_b_480 = "https://vz-41999221-afc.b-cdn.net/eaffe042-f0a7-4ca2-8f94-1356f727f605/play_480p.mp4";
+const reel4_b_480 = "https://vz-41999221-afc.b-cdn.net/b20db3d4-15fb-4c8c-8a1d-126db3c2bf75/play_480p.mp4";
+const reel5_b_480 = "https://vz-41999221-afc.b-cdn.net/e713a5c2-b1d2-4b73-9110-b856f54e8c1b/play_480p.mp4";
+
 
 export {
   reel1_b,
@@ -43,5 +49,10 @@ export {
   reel2_b_360,
   reel3_b_360,
   reel4_b_360,
-  reel5_b_360
+  reel5_b_360,
+  reel1_b_480,
+  reel2_b_480,
+  reel3_b_480,
+  reel4_b_480,
+  reel5_b_480
 };

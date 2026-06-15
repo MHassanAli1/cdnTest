@@ -35,6 +35,11 @@
         <span class="meta"><h2>Bunny MP4</h2><p>5 reels · progressive MP4 360p · b-cdn.net</p></span>
         <span class="path">/bunny-mp4 →</span>
       </a>
+      <a class="route-card" data-c="bunny_480" href="bunny-480/">
+        <span class="glyph">B</span>
+        <span class="meta"><h2>Bunny MP4 480p</h2><p>5 reels · progressive MP4 480p · b-cdn.net</p></span>
+        <span class="path">/bunny-480 →</span>
+      </a>
       <a class="route-card pending" data-c="cloudflare" href="cloudflare/">
         <span class="tag">pending</span>
         <span class="glyph">C</span>
@@ -67,9 +72,9 @@
   <script>
     // Landing comparison reads the same aggregate the feed writes.
     const STORE_KEY = "cdnReelLab.stats.v1";
-    const COLORS = { bunny: "#ff9416", bunny_mp4: "#34d399", mux: "#fa50b5", cloudflare: "#f6821f" };
-    const NAMES  = { bunny: "Bunny", bunny_mp4: "Bunny MP4", mux: "Mux", cloudflare: "Cloudflare" };
-    const KEYS   = ["bunny", "bunny_mp4", "mux", "cloudflare"];
+    const COLORS = { bunny: "#ff9416", bunny_mp4: "#34d399", bunny_480: "#38bdf8", mux: "#fa50b5", cloudflare: "#f6821f" };
+    const NAMES  = { bunny: "Bunny", bunny_mp4: "Bunny 360p", bunny_480: "Bunny 480p", mux: "Mux", cloudflare: "Cloudflare" };
+    const KEYS   = ["bunny", "bunny_mp4", "bunny_480", "mux", "cloudflare"];
 
     function median(a) {
       if (!a.length) return null;

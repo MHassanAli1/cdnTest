@@ -18,8 +18,12 @@ const CDN = {
     urls: [L.reel1_b, L.reel2_b, L.reel3_b, L.reel4_b, L.reel5_b],
   },
   bunny_mp4: {
-    name: "Bunny MP4", accent: "#34d399",
+    name: "Bunny 360p", accent: "#34d399",
     urls: [L.reel1_b_360, L.reel2_b_360, L.reel3_b_360, L.reel4_b_360, L.reel5_b_360],
+  },
+  bunny_480: {
+    name: "Bunny 480p", accent: "#38bdf8",
+    urls: [L.reel1_b_480, L.reel2_b_480, L.reel3_b_480, L.reel4_b_480, L.reel5_b_480],
   },
   mux: {
     name: "Mux", accent: "#fa50b5",
