@@ -11,15 +11,15 @@ import * as L from "./reelLinks.js";
 
 const CDN = {
   bunny: {
-    name: "Bunny.net", short: "BUNNY", accent: "#ff9416", host: "b-cdn.net",
+    name: "Bunny.net", short: "BUNNY", accent: "#ff9416", host: "vy-reel.com",
     urls: [L.reel1_b, L.reel2_b, L.reel3_b, L.reel4_b, L.reel5_b],
   },
   bunny_mp4: {
-    name: "Bunny 360p", short: "360p", accent: "#34d399", host: "b-cdn.net",
+    name: "Bunny 360p", short: "360p", accent: "#34d399", host: "vy-reel.com",
     urls: [L.reel1_b_360, L.reel2_b_360, L.reel3_b_360, L.reel4_b_360, L.reel5_b_360],
   },
   bunny_480: {
-    name: "Bunny 480p", short: "480p", accent: "#38bdf8", host: "b-cdn.net",
+    name: "Bunny 480p", short: "480p", accent: "#38bdf8", host: "vy-reel.com",
     urls: [L.reel1_b_480, L.reel2_b_480, L.reel3_b_480, L.reel4_b_480, L.reel5_b_480],
   },
   mux: {
