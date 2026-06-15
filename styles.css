@@ -27,6 +27,7 @@
 }
 
 [data-cdn="bunny"]      { --accent: #ff9416; --accent-2: #ffd07a; }
+[data-cdn="bunny_mp4"]  { --accent: #34d399; --accent-2: #9af5cf; }
 [data-cdn="mux"]        { --accent: #fa50b5; --accent-2: #ff9ad6; }
 [data-cdn="cloudflare"] { --accent: #f6821f; --accent-2: #ffc06b; }
 
@@ -144,6 +145,7 @@ body::after {
   transition: transform .25s cubic-bezier(.2,.7,.2,1), border-color .25s, background .25s;
 }
 .route-card[data-c="bunny"]      { --c: #ff9416; }
+.route-card[data-c="bunny_mp4"]  { --c: #34d399; }
 .route-card[data-c="mux"]        { --c: #fa50b5; }
 .route-card[data-c="cloudflare"] { --c: #f6821f; }
 

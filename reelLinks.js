@@ -16,6 +16,13 @@ const reel3_cf = "https://example.com/reel3_cf";
 const reel4_cf = "https://example.com/reel4_cf";
 const reel5_cf = "https://example.com/reel5_cf";
 
+const reel1_b_360 = "https://vz-41999221-afc.b-cdn.net/cafaf091-1c98-4646-91c8-14e1b8b130bf/play_360p.mp4";
+const reel2_b_360 = "https://vz-41999221-afc.b-cdn.net/b1c307c2-c7df-4dbf-a253-0428db177154/play_360p.mp4";
+const reel3_b_360 = "https://vz-41999221-afc.b-cdn.net/eaffe042-f0a7-4ca2-8f94-1356f727f605/play_360p.mp4";
+const reel4_b_360 = "https://vz-41999221-afc.b-cdn.net/b20db3d4-15fb-4c8c-8a1d-126db3c2bf75/play_360p.mp4";
+const reel5_b_360 = "https://vz-41999221-afc.b-cdn.net/e713a5c2-b1d2-4b73-9110-b856f54e8c1b/play_360p.mp4";
+
+
 export {
   reel1_b,
   reel2_b,
@@ -31,5 +38,10 @@ export {
   reel2_cf,
   reel3_cf,
   reel4_cf,
-  reel5_cf
+  reel5_cf,
+  reel1_b_360,
+  reel2_b_360,
+  reel3_b_360,
+  reel4_b_360,
+  reel5_b_360
 };

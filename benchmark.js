@@ -17,6 +17,10 @@ const CDN = {
     name: "Bunny.net", accent: "#ff9416",
     urls: [L.reel1_b, L.reel2_b, L.reel3_b, L.reel4_b, L.reel5_b],
   },
+  bunny_mp4: {
+    name: "Bunny MP4", accent: "#34d399",
+    urls: [L.reel1_b_360, L.reel2_b_360, L.reel3_b_360, L.reel4_b_360, L.reel5_b_360],
+  },
   mux: {
     name: "Mux", accent: "#fa50b5",
     urls: [L.reel1_m, L.reel2_m, L.reel3_m, L.reel4_m, L.reel5_m],

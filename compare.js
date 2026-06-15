@@ -14,6 +14,10 @@ const CDN = {
     name: "Bunny.net", short: "BUNNY", accent: "#ff9416", host: "b-cdn.net",
     urls: [L.reel1_b, L.reel2_b, L.reel3_b, L.reel4_b, L.reel5_b],
   },
+  bunny_mp4: {
+    name: "Bunny MP4", short: "B·MP4", accent: "#34d399", host: "b-cdn.net",
+    urls: [L.reel1_b_360, L.reel2_b_360, L.reel3_b_360, L.reel4_b_360, L.reel5_b_360],
+  },
   mux: {
     name: "Mux", short: "MUX", accent: "#fa50b5", host: "stream.mux.com",
     urls: [L.reel1_m, L.reel2_m, L.reel3_m, L.reel4_m, L.reel5_m],
@@ -23,7 +27,7 @@ const CDN = {
     urls: [L.reel1_cf, L.reel2_cf, L.reel3_cf, L.reel4_cf, L.reel5_cf],
   },
 };
-const ORDER = ["bunny", "mux", "cloudflare"];
+const ORDER = ["bunny", "bunny_mp4", "mux", "cloudflare"];
 const REELS = 5;
 
 const probe = document.createElement("video");

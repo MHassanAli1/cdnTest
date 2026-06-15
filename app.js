@@ -19,6 +19,13 @@ const CDN = {
     host: "b-cdn.net",
     urls: [L.reel1_b, L.reel2_b, L.reel3_b, L.reel4_b, L.reel5_b],
   },
+  bunny_mp4: {
+    name: "Bunny MP4",
+    label: "BUNNY · MP4 360p",
+    host: "b-cdn.net",
+    urls: [L.reel1_b_360, L.reel2_b_360, L.reel3_b_360, L.reel4_b_360, L.reel5_b_360],
+    mp4: true, // progressive MP4 — plays natively everywhere, no HLS gate
+  },
   mux: {
     name: "Mux",
     label: "MUX VIDEO",
@@ -116,7 +123,7 @@ cfg.urls.forEach((url, i) => {
     reels.push({ el: reel, video: null, placeholder: true });
     return;
   }
-  if (!HLS_NATIVE) {
+  if (!cfg.mp4 && !HLS_NATIVE) {
     reel.appendChild(unsupportedCard());
     feed.appendChild(reel);
     reels.push({ el: reel, video: null, placeholder: true });
